@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.estiloTable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.estiloTable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.estiloTable th,
+.estiloTable td {
+    padding: 6px 8px;
+}
+
+.estiloTable tbody tr {
+    border-bottom: 2px solid #009879;
+}
+
+#consoleInputs {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+#inputs, #pesoNota {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#inputs input, #pesoNota input {
+    padding: 2px;
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#botoes button {
+    padding: 6px;
+    background-color: #1bffd1;
+    border-color: #00d3a9;
+    border-style: ridge;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0px 2%;
+    margin-top: 20px;
+    overflow-x: scroll;
+}
